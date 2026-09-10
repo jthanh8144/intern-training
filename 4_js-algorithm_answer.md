@@ -160,4 +160,39 @@ function exercise13(parens: string): boolean {
 
   return count === 0;
 }
+
+function exercise14(arr1, arr2) {
+  const excluded = new Set(arr2);
+
+  return [...new Set(arr1)].filter(item => !excluded.has(item));
+}
+
+function exercise15(arr) {
+  const odds = arr
+    .filter(num => num % 2 !== 0)
+    .sort((a, b) => a - b);
+
+  let oddIndex = 0;
+
+  return arr.map(num => {
+    if (num % 2 !== 0) {
+      return odds[oddIndex++];
+    }
+
+    return num;
+  });
+}
+
+function exercise16(str) {
+  return str
+    .split('')
+    .map((char, index) =>
+      char.toUpperCase() + char.toLowerCase().repeat(index)
+    )
+    .join('-');
+}
+
+function exercise17(n) {
+  return n ** 3;
+}
 ```
