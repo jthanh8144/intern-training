@@ -123,7 +123,11 @@ var sum = Utils.sum,
 console.log("2π = " + sum(pi, pi));
 ```
 
+## 
+
 8. Promise
+
+Convert callback to use async/await
 
 - ES5
 

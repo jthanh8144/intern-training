@@ -18,7 +18,7 @@
 12. Get blogs created by users who do not have any comments on blogs.
 13. Get the 5 newest blogs and the number of comments for each blog.
 14. Get the first 3 Users who commented in the 5 newest blogs.
-15. Update `rank` for user `2` when the user's total number of comments is greater than 10.
+15. Update the user's rank to 2 when their total number of comments exceeds 10.
 16. Select the 10 newest blogs created by active users.
 17. Get the number of active Blogs for users with IDs `1`, `2`, and `4`.
 18. Get 5 blogs and 5 news items from any category.
